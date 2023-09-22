@@ -46,4 +46,4 @@ const BlogUI = ({ classes, blogData }) => {
   );
 };
 
-export default BlogUI;
+export default BlogUI;  

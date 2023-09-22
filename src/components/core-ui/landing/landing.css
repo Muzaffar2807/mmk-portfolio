@@ -107,12 +107,12 @@
 }
 
 .coding-container{
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .lottie-coding{
   height: auto;
-  width: 400px;
+  width: 350px;
 }
 
 @media (max-width: 1100px) {
