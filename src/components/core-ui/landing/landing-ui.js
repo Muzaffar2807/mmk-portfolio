@@ -76,7 +76,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
         >
           <div className="lcr--content" style={{ color: theme.tertiary }}>
             {/* <h6 style={{ color: theme.primary }}>{headerData.title}</h6> */}
-            <h1>{headerData.name}</h1>
+            <h1>Muzaffar Khan</h1>
             <Typed
               strings={[
                 "Backend Developer",
