@@ -1,4 +1,4 @@
-/* import React, { useContext } from 'react';
+  import React, { useContext } from 'react';
 import { HiArrowRight } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
 import { ThemeContext } from '../../../contexts/theme-context';
@@ -46,13 +46,4 @@ const BlogUI = ({ classes, blogData }) => {
   );
 };
 
-export default BlogUI;   */
-import React from 'react'
-
-const BlogUi = () => {
-  return (
-    <div>blog-ui</div>
-  )
-}
-
-export default BlogUi;
+export default BlogUI;    
