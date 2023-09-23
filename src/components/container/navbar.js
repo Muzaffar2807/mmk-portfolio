@@ -41,9 +41,7 @@ const Navbar = () => {
       fontWeight: ' normal',
       fontSize: ' 24px',
       background: theme.secondary,
-      overflow: 'hidden',
-      borderTopRightRadius: '40px',
-      borderBottomRightRadius: '40px',
+      overflow: 'hidden',  
       [t.breakpoints.down('sm')]: {
         width: '12em',
       },

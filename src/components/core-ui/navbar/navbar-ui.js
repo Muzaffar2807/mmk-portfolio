@@ -112,20 +112,7 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
                             </NavLink>
                         </Fade>
 
-                        <Fade left>
-                            <div className={classes.drawerItem} onClick={changeTheme}>
-                                {isDark ?
-                                    <BsFillSunFill className={classes.drawerIcon} />
-                                    :
-                                    <BsFillMoonFill className={classes.drawerIcon} />
-                                }
-                                <span className={classes.drawerLinks}>
-                                    {
-                                        isDark ? "Light" : "Dark"
-                                    }
-                                </span>
-                            </div>
-                        </Fade>
+                        
 
                         <Fade left>
                             <NavLink

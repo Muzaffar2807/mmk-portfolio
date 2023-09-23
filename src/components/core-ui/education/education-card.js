@@ -6,7 +6,7 @@ import eduImgWhite from '../../../assets/svg/education/eduImgWhite.svg';
 import { ThemeContext } from '../../../contexts/theme-context';
 import './education.css';
 
-function EducationCard({ id, institution, course, startYear, endYear }) {
+function EducationCard({ id, institution, course, startYear, endYear, gpa }) {
 
     const { theme } = useContext(ThemeContext);
 
@@ -19,19 +19,31 @@ function EducationCard({ id, institution, course, startYear, endYear }) {
     const classes = useStyles();
 
     return (
-        <Fade bottom>
-            <div key={id} className={`education-card ${classes.educationCard}`} >
-                <div className="educard-img" style={{ backgroundColor: theme.primary }}>
-                    <img src={theme.type === 'light' ? eduImgBlack : eduImgWhite} alt="" />
-                </div>
-                <div className="education-details">
-                    <h6 style={{ color: theme.primary }}>{startYear}-{endYear}</h6>
-                    <h4 style={{ color: theme.tertiary }}>{course}</h4>
-                    <h5 style={{ color: theme.tertiary }}>{institution}</h5>
-                </div>
-            </div>
-        </Fade>
-    )
+      <Fade bottom>
+        <div key={id} className={`education-card ${classes.educationCard}`}>
+          <div
+            className="educard-img"
+            style={{ backgroundColor: theme.primary }}
+          >
+            <img
+              src={theme.type === "light" ? eduImgBlack : eduImgWhite}
+              alt=""
+            />
+          </div>
+          <div className="education-details">
+            <h6 style={{ color: theme.primary }}>
+              {startYear}-{endYear}
+            </h6>
+            <h4 style={{ color: theme.tertiary }}>{course}</h4>
+            <h5 style={{ color: theme.tertiary }}>{institution}</h5>
+            <h6>
+              <span style={{ color: theme.tertiary }}>GPA : </span>
+              {gpa}
+            </h6>
+          </div>
+        </div>
+      </Fade>
+    );
 }
 
 export default EducationCard
