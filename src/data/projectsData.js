@@ -4,47 +4,32 @@ import six from '../assets/svg/projects/six.svg'
 
 
 export const projectsData = [
-    {
-        id: 1,
-        projectName: 'Ayla Networks',
-        projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
-        tags: ['React', 'SAAS', 'React Bootstrap'],
-        code: '',
-        demo: 'https://www.aylanetworks.com/',
-        image: six
-    },
-    {
-        id: 2,
-        projectName: 'Jewelry Niche',
-        projectDesc: 'This project is a Jewelry shop, Customer can be buy product and manage them and make payment.',
-        tags: ['React', 'Express', 'Material Ui'],
-        code: 'https://github.com/said7388/jewelry-niche',
-        demo: 'https://pandora-web.netlify.app/',
-        image: seven
-    },
-    {
-        id: 3,
-        projectName: 'Travel Agency',
-        projectDesc: 'This project about travel agency management.',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/said7388/Travel-Agency-client',
-        demo: 'https://travel-agency-fc58b.web.app/',
-        image: eight
-    }
-]
-
-
-// Do not remove any fields.
-// Leave it blank instead as shown below
-
-/* 
-{
+  {
     id: 1,
-    projectName: 'Car Pooling System',
-    projectDesc: '',
-    tags: ['Flutter', 'React'],
-    code: '',
-    demo: '',
-    image: ''
-}, 
-*/
+    projectName: "Delivero Clone",
+    projectDesc: "This project is clone of food delivery App.",
+    tags: ["React Native", "Material UI", "Redux"],
+    code: "https://github.com/Muzaffar2807/Delivero-Clone",
+    demo: "",
+    image: six,
+  },
+  {
+    id: 2,
+    projectName: "Travel-Advisory",
+    projectDesc:
+      "This App recommends best restaurants, hotels & Attraction near client's location.",
+    tags: ["React", "google-maps-react", "Material Ui"],
+    code: "https://github.com/Muzaffar2807/Travel-Advisory",
+    demo: "https://mmktraveladvisor.netlify.app/",
+    image: seven,
+  },
+  {
+    id: 2,
+    projectName: "Real Estate",
+    projectDesc: "This is a marketplace for selling/buying property's.",
+    tags: ["React Native", "Material UI", "Redux-toolkit"],
+    code: "https://github.com/Muzaffar2807/real-estate",
+    demo: "",
+    image: eight,
+  },
+]; 

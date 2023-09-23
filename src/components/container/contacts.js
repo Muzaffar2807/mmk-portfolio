@@ -105,7 +105,7 @@ const Contacts = () => {
     },
   }));
 
-  const classes = useStyles();
+  const classes = useStyles(); 
 
 
   const handleContactForm = (e) => {
