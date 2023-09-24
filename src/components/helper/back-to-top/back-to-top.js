@@ -29,7 +29,7 @@ function BackToTop() {
 
     const useStyles = makeStyles(() => ({
         icon: {
-            fontSize: '2rem',
+            fontSize: '3rem',
             color: theme.primary,
             '&:hover': {
                 transform: 'scale(1.08)',

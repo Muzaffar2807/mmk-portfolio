@@ -32,4 +32,22 @@ export const projectsData = [
     demo: "",
     image: eight,
   },
+  {
+    id: 2,
+    projectName: "Real Estate",
+    projectDesc: "This is a marketplace for selling/buying property's.",
+    tags: ["React Native", "Material UI", "Redux-toolkit"],
+    code: "https://github.com/Muzaffar2807/real-estate",
+    demo: "",
+    image: eight,
+  },
+  {
+    id: 2,
+    projectName: "Real Estate",
+    projectDesc: "This is a marketplace for selling/buying property's.",
+    tags: ["React Native", "Material UI", "Redux-toolkit"],
+    code: "https://github.com/Muzaffar2807/real-estate",
+    demo: "",
+    image: eight,
+  },
 ]; 
